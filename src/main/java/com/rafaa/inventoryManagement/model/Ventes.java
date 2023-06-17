@@ -35,4 +35,5 @@ public class Ventes extends AbstractEntity{
 
 	  @OneToMany(mappedBy = "vente")
 	  private List<LigneVente> ligneVentes;
+
 }
